@@ -1,0 +1,189 @@
+﻿  allocator.cpp
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(16,20): error C2143: syntax error: missing '}' before 'static_cast'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(17): message : see reference to class template instantiation 'max_allocations<T>' being compiled
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(16,20): error C2059: syntax error: 'static_cast'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(16,37): error C2039: 'size_t': is not a member of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\predefined C++ types (compiler internal)(409): message : see declaration of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(16,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(16,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(24,1): error C2039: 'size_t': is not a member of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\predefined C++ types (compiler internal)(409): message : see declaration of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(54): message : see reference to class template instantiation 'heap<T>' being compiled
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(24,1): error C2039: 'ptrdiff_t': is not a member of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\predefined C++ types (compiler internal)(409): message : see declaration of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(24,1): error C3646: 'difference_type': unknown override specifier
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(24,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(42,46): error C2039: 'bad_alloc': is not a member of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\predefined C++ types (compiler internal)(409): message : see declaration of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(43,81): error C2039: 'nothrow': is not a member of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\predefined C++ types (compiler internal)(409): message : see declaration of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(41,1): error C2062: type 'void' unexpected
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(53): message : see reference to class template instantiation 'fmi::allocator<T,PolicyT,TraitsT>' being compiled
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(41,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,26): error C2988: unrecognizable template declaration/definition
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,26): error C2143: syntax error: missing ')' before 'const'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,26): error C2143: syntax error: missing ';' before 'const'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C2059: syntax error: ')'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C2098: unexpected token after data member 'other'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C2988: unrecognizable template declaration/definition
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C2059: syntax error: '<end Parse>'
+  heap.cpp
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(16,20): error C2143: syntax error: missing '}' before 'static_cast'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(17): message : see reference to class template instantiation 'max_allocations<T>' being compiled
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(16,20): error C2059: syntax error: 'static_cast'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(16,37): error C2039: 'size_t': is not a member of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\predefined C++ types (compiler internal)(409): message : see declaration of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(16,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(16,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(24,1): error C2039: 'size_t': is not a member of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\predefined C++ types (compiler internal)(409): message : see declaration of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(54): message : see reference to class template instantiation 'heap<T>' being compiled
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(24,1): error C2039: 'ptrdiff_t': is not a member of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\predefined C++ types (compiler internal)(409): message : see declaration of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(24,1): error C3646: 'difference_type': unknown override specifier
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(24,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(42,46): error C2039: 'bad_alloc': is not a member of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\predefined C++ types (compiler internal)(409): message : see declaration of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\heap.h(43,81): error C2039: 'nothrow': is not a member of 'std'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\predefined C++ types (compiler internal)(409): message : see declaration of 'std'
+  Main.cpp
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(41,1): error C2955: 'fmi::allocator': use of class template requires template argument list
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(20): message : see declaration of 'fmi::allocator'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(53): message : see reference to class template instantiation 'fmi::allocator<T,PolicyT,TraitsT>' being compiled
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(41,1): error C2062: type 'void' unexpected
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(41,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,26): error C2988: unrecognizable template declaration/definition
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,26): error C2143: syntax error: missing ')' before 'const'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,26): error C2143: syntax error: missing ';' before 'const'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C2059: syntax error: ')'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C2098: unexpected token after data member 'other'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C2988: unrecognizable template declaration/definition
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C2059: syntax error: '<end Parse>'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(41,1): error C2838: '{ctor}': illegal qualified name in member declaration
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xmemory(473): message : see reference to class template instantiation 'fmi::allocator<Example,heap<Example>,obj_traits<T>>' being compiled
+          with
+          [
+              T=Example
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xmemory(690): message : see reference to class template instantiation 'std::_Normal_allocator_traits<_Alloc>' being compiled
+          with
+          [
+              _Alloc=fmi::allocator<Example,heap<Example>,obj_traits<Example>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(835): message : see reference to class template instantiation 'std::allocator_traits<fmi::allocator<Example,heap<Example>,obj_traits<T>>>' being compiled
+          with
+          [
+              T=Example
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(835): message : see reference to alias template instantiation 'std::_Rebind_alloc_t<fmi::allocator<Example,heap<Example>,obj_traits<T>>,Example>' being compiled
+          with
+          [
+              T=Example
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\set(54): message : see reference to class template instantiation 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>' being compiled
+          with
+          [
+              _Kty=Example,
+              _Pr=std::less<Example>,
+              _Alloc=fmi::allocator<Example,heap<Example>,obj_traits<Example>>
+          ]
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\Main.cpp(25): message : see reference to class template instantiation 'std::set<Example,std::less<Example>,fmi::allocator<Example,heap<Example>,obj_traits<T>>>' being compiled
+          with
+          [
+              T=Example
+          ]
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(44,9): error C2143: syntax error: missing ';' before '<L_GRAMMAR_template_head_l>'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(47,18): error C2143: syntax error: missing ';' before 'fmi::allocator'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(47,43): error C2065: 'U': undeclared identifier
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(48,17): error C2065: 'PolicyU': undeclared identifier
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,17): error C2065: 'TraitsU': undeclared identifier
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(47,33): error C2923: 'fmi::allocator': 'U' is not a valid template type argument for parameter 'T'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(47,33): error C2923: 'fmi::allocator': 'PolicyU' is not a valid template type argument for parameter 'PolicyT'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(47,33): error C2923: 'fmi::allocator': 'TraitsU' is not a valid template type argument for parameter 'TraitsT'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C2061: syntax error: identifier 'allocator'
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C2590: 'allocator': only a constructor can have a base/member initializer list
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,1): error C2838: '{ctor}': illegal qualified name in member declaration
+C:\Users\Jason Dimitrius\Desktop\uni\SSP\Allocator\allocator.h(49,40): error C2059: syntax error: ':'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xmemory(690,66): error C2143: syntax error: missing ';' before '}'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(836,45): error C2065: '_Alty': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(836,28): error C2923: 'std::allocator_traits': '_Alty' is not a valid template type argument for parameter '_Alloc'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(837,39): error C2065: 'value_type': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(837,16): error C2955: 'std::allocator_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xmemory(689): message : see declaration of 'std::allocator_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(837,28): error C2923: 'std::_Tree_node': 'value_type' is not a valid template type argument for parameter '_Value_type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(838,44): error C2065: 'allocator_type': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(838,28): error C2923: 'std::_Rebind_alloc_t': 'allocator_type' is not a valid template type argument for parameter '_Alloc'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(838,60): error C3203: '_Tree_node': unspecialized class template can't be used as a template argument for template parameter '_Value_type', expected a real type
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(840,53): error C2955: 'std::allocator_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xmemory(689): message : see declaration of 'std::allocator_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(840,53): error C2039: 'pointer': is not a member of 'std::allocator_traits<_Alloc>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(840,1): error C2061: syntax error: identifier 'pointer'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(842,2): error C2065: 'value_type': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(842,77): error C2923: 'std::_Tree_simple_types': 'value_type' is not a valid template type argument for parameter '_Ty'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(843,26): error C2065: 'value_type': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(843,16): error C2955: 'std::allocator_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xmemory(689): message : see declaration of 'std::allocator_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(843,16): error C2955: 'std::allocator_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xmemory(689): message : see declaration of 'std::allocator_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(844,36): error C2955: 'std::allocator_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xmemory(689): message : see declaration of 'std::allocator_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(844,16): error C2955: 'std::allocator_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xmemory(689): message : see declaration of 'std::allocator_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(844,31): error C2065: 'value_type': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(844,1): error C2059: syntax error: ','
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(844,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(845,13): error C2065: '_Nodeptr': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(847,1): error C2653: '_Traits': is not a class or namespace name
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(847,45): error C2065: '_Multi': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(847,45): error C2131: expression did not evaluate to a constant
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(847,45): message : a non-constant (sub-)expression was encountered
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(855,1): error C2653: '_Traits': is not a class or namespace name
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(855,1): error C2061: syntax error: identifier 'key_type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(856,1): error C2653: '_Traits': is not a class or namespace name
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(856,1): error C2061: syntax error: identifier 'value_compare'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(858,1): error C2653: '_Traits': is not a class or namespace name
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(858,1): error C2061: syntax error: identifier 'key_compare'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(860,52): error C2955: 'std::allocator_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xmemory(689): message : see declaration of 'std::allocator_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(860,52): error C2039: 'size_type': is not a member of 'std::allocator_traits<_Alloc>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(860,1): error C2061: syntax error: identifier 'size_type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(861,52): error C2955: 'std::allocator_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xmemory(689): message : see declaration of 'std::allocator_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(861,52): error C2039: 'difference_type': is not a member of 'std::allocator_traits<_Alloc>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(861,1): error C2061: syntax error: identifier 'difference_type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(862,52): error C2955: 'std::allocator_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xmemory(689): message : see declaration of 'std::allocator_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(862,52): error C2039: 'pointer': is not a member of 'std::allocator_traits<_Alloc>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(862,1): error C2061: syntax error: identifier 'pointer'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(863,52): error C2955: 'std::allocator_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xmemory(689): message : see declaration of 'std::allocator_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(863,52): error C2039: 'const_pointer': is not a member of 'std::allocator_traits<_Alloc>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(863,1): error C2061: syntax error: identifier 'const_pointer'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(864,1): error C2061: syntax error: identifier 'value_type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(865,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(865,35): error C2146: syntax error: missing ';' before identifier 'value_type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(865,45): error C2143: syntax error: missing ';' before '&'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(865,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(868,33): error C2065: 'key_type': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(868,43): error C2065: 'value_type': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(868,23): error C2923: 'std::is_same_v': 'key_type' is not a valid template type argument for parameter '<unnamed-symbol>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(868,23): error C2923: 'std::is_same_v': 'value_type' is not a valid template type argument for parameter '<unnamed-symbol>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(868,1): error C2993: 'unknown-type': is not a valid type for non-type template parameter '_Test'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(870,63): error C2065: 'key_type': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(870,73): error C2065: 'value_type': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(870,53): error C2923: 'std::is_same_v': 'key_type' is not a valid template type argument for parameter '<unnamed-symbol>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(870,53): error C2923: 'std::is_same_v': 'value_type' is not a valid template type argument for parameter '<unnamed-symbol>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(871,9): error C2976: 'std::_Tree_unchecked_const_iterator': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(27): message : see declaration of 'std::_Tree_unchecked_const_iterator'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(871,1): error C2993: 'unknown-type': is not a valid type for non-type template parameter '_Test'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(872,39): error C2976: 'std::_Tree_unchecked_const_iterator': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(27): message : see declaration of 'std::_Tree_unchecked_const_iterator'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(875,58): error C3203: '_Tree_const_iterator': unspecialized class template can't be used as a template argument for template parameter '_BidIt', expected a real type
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(877,1): fatal error C1903: unable to recover from previous error(s); stopping compilation
+  INTERNAL COMPILER ERROR in 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\CL.exe'
+      Please choose the Technical Support command on the Visual C++
+      Help menu, or open the Technical Support help file for more information
