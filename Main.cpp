@@ -22,12 +22,17 @@ int main(int argc, char* argv[])
 {
     // Increase scope
     {
-        std::set<Example, std::less<Example>, fmi::allocator<Example, heap<Example> > > foo;
+        std::set<Example, std::less<Example>, allocator<Example, heap<Example> > > foo;
 
         foo.insert(Example(3));
         foo.insert(Example(1));
         foo.insert(Example(4));
         foo.insert(Example(2));
+
+        for (const auto& i : foo)
+        {
+            std::cout << i.value << ' ';
+        }
     }
     // Leaving scope
     return 0;

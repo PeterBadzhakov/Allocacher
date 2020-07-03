@@ -13,7 +13,7 @@ typedef std::ptrdiff_t    difference_type; \
 template<typename T>
 struct max_allocations
 {
-    enum { value = static_cast<std::size_t>(-1) / sizeof(T) };
+    constexpr static size_t value = size_t(-1) / sizeof(T);
 };
 
 template<typename T>
@@ -46,7 +46,7 @@ public:
 
         // metadata.data ....
 
-#ifdef __DEBUG
+#ifdef _DEBUG
         // debug_metadata.data ...
 #endif
 
@@ -63,16 +63,14 @@ public:
     size_type max_size(void) const { return max_allocations<T>::value; }
 
 private:
-    unique
-
-    mutable std::mutex struct metadata
+    struct metadata
     {
         /*
             ...
         */
     };
-#ifdef __DEBUG
-    mutable std::mutex struct d_metadata
+#ifdef _DEBUG
+    struct d_metadata
     {
         /*
             ...
