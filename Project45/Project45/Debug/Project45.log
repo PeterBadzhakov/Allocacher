@@ -1,0 +1,23 @@
+﻿  Source.cpp
+c:\users\niko\source\repos\project45\project45\policy.hpp(5): error C2061: syntax error: identifier 'size_type'
+c:\users\niko\source\repos\project45\project45\policy.hpp(17): error C2061: syntax error: identifier 'stack'
+  c:\users\niko\source\repos\project45\project45\policy.hpp(47): note: see reference to class template instantiation 'policy<T>' being compiled
+c:\users\niko\source\repos\project45\project45\policy.hpp(17): error C2238: unexpected token(s) preceding ';'
+c:\users\niko\source\repos\project45\project45\policy.hpp(18): error C2065: 'bucket': undeclared identifier
+c:\users\niko\source\repos\project45\project45\policy.hpp(18): error C2923: 'std::array': 'bucket' is not a valid template type argument for parameter '_Ty'
+c:\users\niko\source\repos\project45\project45\policy.hpp(20): error C2126: 'policy<T>::taken' cannot be declared with 'constexpr' specifier
+c:\users\niko\source\repos\project45\project45\policy.hpp(21): error C2126: 'policy<T>::garbage' cannot be declared with 'constexpr' specifier
+c:\users\niko\source\repos\project45\project45\policy.hpp(31): error C2143: syntax error: missing ';' before '*'
+  c:\users\niko\source\repos\project45\project45\policy.hpp(31): note: see reference to class template instantiation 'policy<T>::metadata' being compiled
+c:\users\niko\source\repos\project45\project45\policy.hpp(31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\niko\source\repos\project45\project45\policy.hpp(31): error C2238: unexpected token(s) preceding ';'
+c:\users\niko\source\repos\project45\project45\policy.hpp(34): error C2065: 'bucket': undeclared identifier
+c:\users\niko\source\repos\project45\project45\policy.hpp(34): error C2065: 'ptr': undeclared identifier
+c:\users\niko\source\repos\project45\project45\policy.hpp(34): error C2974: 'std::pair': invalid template argument for '_Ty1', type expected
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\utility(93): note: see declaration of 'std::pair'
+c:\users\niko\source\repos\project45\project45\policy.hpp(34): error C3203: 'pair': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+c:\users\niko\source\repos\project45\project45\source.cpp(6): error C2977: 'policy': too many template arguments
+  c:\users\niko\source\repos\project45\project45\policy.hpp(6): note: see declaration of 'policy'
+c:\users\niko\source\repos\project45\project45\source.cpp(6): error C2133: 'P': unknown size
+c:\users\niko\source\repos\project45\project45\source.cpp(6): error C2512: 'policy': no appropriate default constructor available
+  c:\users\niko\source\repos\project45\project45\policy.hpp(6): note: see declaration of 'policy'
